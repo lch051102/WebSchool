@@ -1,0 +1,21 @@
+h1 {
+  font-family: Cambria, Cochin,Grotgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  background: #9999ff;
+  color: blue;
+  text-align: center;
+  text-shadow: 4px 4px 4px #000000;
+  text-transform: capitalize;
+}
+h2 {
+  font-family: Cambria, Cochin,Grotgia, Times, 'Times New Roman', serif;
+  border-style: outset;
+  border-color: skyblue;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: blue;
+  text-align: center;
+  text-transform: uppercase;
+}
