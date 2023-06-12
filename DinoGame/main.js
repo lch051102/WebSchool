@@ -56,23 +56,23 @@ function Frame() {
     }
   
     requestAnimationFrame(Frame);
-  }
+}
   
-  let isUpPressed = false;
+let isUpPressed = false;
   
-  document.addEventListener('keydown', function (event) {
+document.addEventListener('keydown', function (event) {
     if (event.code === 'KeyW') {
         isUpPressed = true;
     }
-  });
+});
   
-  document.addEventListener('keydown', function (event) {
+document.addEventListener('keydown', function (event) {
     if (event.code === 'KeyS') {
         isUpPressed = false;
     }
-  });
+});
   
-  Frame();
+Frame();
   
 
 프레임();
