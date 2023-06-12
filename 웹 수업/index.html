@@ -3,29 +3,21 @@
 <head>
   <title>나를 소개합니다!</title>
   <style>
-    @font-face {
-      font-family: 'Ridibatang';
-      src: url('"C:\vscode\WebSchool-1\웹 수업\RIDIBatang.otf"') format('truetype');
-      /* 다운로드 받은 글꼴 파일의 경로와 형식을 적절하게 수정하세요. */
-    }
     body {
-      font-family: Ridibatang, Arial, sans-serif;
-      /* 웹페이지에서 사용할 글꼴 순서를 지정합니다.
-         Ridibatang 글꼴이 설치되어 있지 않은 경우 Arial, sans-serif가 대체 글꼴로 사용됩니다. */
+      font-family: 'Montega', serif; /*Montega라는 글꼴을 사용함*/
       margin: 0;
-      padding: 20px;
-      background: #336699;
+      padding: 60px;
+      background: #406d9a;
       background-repeat: no-repeat;
       background-attachment: fixed;
     }
-
-    h1 {
+    h3 {
       color: #ffffff;
       padding-left: 100px;
     }
 
     p {
-      color: #ffffff;
+      
       padding-left: 100px;
     }
 
@@ -43,22 +35,14 @@
     a {
       padding-left: 100px;
     }
-
-    .top {
-      border-top: 1px solid #dddddd;
-      margin-top: 20px;
-    }
-
-    .bottom {
-      border-top: 1px solid #dddddd;
-      margin-top: 30px;
-    }
     ab {
       padding-left: 100px;
-      margin-top: 30px;
+      margin-top: 25px;
       position: absolute;
       font-size: 50px;
+      font-weight: bolder;
       color: #ffffff;
+      
     }
     .container {
       display: flex;
@@ -77,17 +61,31 @@
       top: 160px;
       left: 600px;
     }
+    p1 {
+      position: fixed; /* 요소를 고정 위치로 설정합니다. */
+      top: 0; /* 상단에서의 거리를 0으로 설정합니다. */
+      left: 0; /* 좌측에서의 거리를 0으로 설정합니다. */
+      right: 0; /* 우측에서의 거리를 0으로 설정합니다. */
 
+      height: 25px; /* 요소의 높이를 15px로 설정합니다. */
+      padding: 1rem; /* 내부 여백을 1rem으로 설정합니다. */
+      color: black; /* 글자색을 검은색으로 설정합니다. */
+      background: #7998B8; /* 배경색을 흰색(#ffffff)으로 설정합니다. */
+      font-weight: bold; /* 글자 굵기를 bold로 설정합니다. */
+      display: flex; /* flexbox 레이아웃을 사용합니다. */
+      justify-content: space-between; /* 요소 사이의 여백을 동일하게 설정하여 좌우 정렬합니다. */
+      align-items: center; /* 요소를 수직 가운데 정렬합니다. */
+    }
   </style>
 </head>
 <body>
   <p1>☞ 개발자 이충헌의 포트폴리오 사이트 / Profile</p1>
-  <div class="top"></div>
   <ab>Portfolio</ab>
   <div class="container">
     <img src="ch.jpg">
     <div class="abc">
-      <h1>이충헌</h1>
+      <h3>| information</h3>
+      <p>[Name] 이충헌 Chung Heon Lee</p>
       <p>저는 프로그래밍과 게임 개발에 관심이 많습니다.</p>
       <p>Unity을 사용하여 다양한 게임을 만들고 있습니다.</p>
       <p>또한, 게임을 좋아하고 개발에 흥미를 느끼고 있습니다.</p>
@@ -95,6 +93,5 @@
       <a href="https://career.programmers.co.kr/pr/chung_heon">Portfolio Website</a>
     </div>
   </div>
-  <div class="bottom"></div>
 </body>
 </html>
