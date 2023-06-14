@@ -13,7 +13,7 @@ toggleButton.addEventListener('click', () => {
 
 
         function searchImage() {
-            var img = document.querySelector('img[src="https://dukyoung-h.goeyi.kr/images/web/dukyoung-h/sub/img0109.png"]');
+            var img = document.querySelector('img[src="덕영 맵.png"]');
             img.style.display = 'none';
             // 이전 이미지 삭제
             var previousImage = document.querySelector('#image-container img');
