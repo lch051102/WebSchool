@@ -13,7 +13,7 @@ function btc(e){
             var imageContainer = document.getElementById('image-container');
             var img = new Image();
 
-            img.src = '학교지도_'+sc+'.jpg';
+            img.src = '학교지도_' + sc + '.jpg';
             img.style.width = '1150px'; // 이미지 크기 조절
             img.style.height = '800px';
             img.style.top = '100%'; // 이미지 위치 조정

@@ -254,7 +254,7 @@ toggleButton.addEventListener('click', () => {
                 // 이미지를 다시 보이도록 합니다.
                 img.style.display = 'block';
             }
-            else if (searchValue === '조리실' || searchValue === '식당' || searchValue === '테라스' || searchValue === '덕영관 2층' || searchValue === '덕영관2층') {
+            else if (searchValue === '조리실' || searchValue === '식당' || searchValue === '테라스' || searchValue === '덕영관 2층'  || searchValue === '급식실' || searchValue === '급식') {
                 // 덕영관 2층에 해당하는 이미지로 설정
                 img.src = '학교지도_덕영관_2층.jpg';
                 img.style.width = '1150px'; // 이미지 크기 조절

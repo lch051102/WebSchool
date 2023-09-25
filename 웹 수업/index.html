@@ -14,11 +14,13 @@
     h3 {
       color: #ffffff;
       padding-left: 100px;
+      font-weight: bolder;
+      padding-left: 200px;
     }
 
     p {
       
-      padding-left: 100px;
+      padding-left: 200px;
     }
 
     table {
@@ -33,7 +35,7 @@
     }
 
     a {
-      padding-left: 100px;
+      padding-left: 200px;
     }
     ab {
       padding-left: 100px;
@@ -77,21 +79,55 @@
       align-items: center; /* 요소를 수직 가운데 정렬합니다. */
     }
   </style>
+  <script>
+    document.addEventListener('copy', function(event) {
+      event.preventDefault(); // 복사 이벤트 취소
+
+      // 콘솔에 경고 메시지 출력
+      alert("Copying is not allowed!");
+    });
+    window.addEventListener('beforeunload', function(event) {
+      // 콘솔에 경고 메시지 출력
+      alert("download is not allowed!");
+      
+      // 경고 메시지 표시 (최신 브라우저에서만 지원)
+      event.preventDefault();
+    });
+  </script>
 </head>
 <body>
   <p1>☞ 개발자 이충헌의 포트폴리오 사이트 / Profile</p1>
-  <ab>Portfolio</ab>
+  <ab>Profile</ab>
   <div class="container">
     <img src="ch.jpg">
     <div class="abc">
       <h3>| information</h3>
-      <p>[Name] 이충헌 Chung Heon Lee</p>
+      <p>[Name] 이충헌(Chung Heon Lee)</p>
+      <p>[Age] 19</p>
+      <p>[Email] ichungheon123@gmail.com</p>
+      <br>
+      <h3>| information</h3>
+      <p>[2021-03~재학중]</p>
+      <p>덕영고등학교 소프트웨어과 재학중</p>
+      <br>
+      <h3>| Introduce</h3>
       <p>저는 프로그래밍과 게임 개발에 관심이 많습니다.</p>
       <p>Unity을 사용하여 다양한 게임을 만들고 있습니다.</p>
       <p>또한, 게임을 좋아하고 개발에 흥미를 느끼고 있습니다.</p>
-      <p>더 많은 정보와 프로젝트를 확인하시려면 아래 링크를 참고해주세요.</p>
-      <a href="https://career.programmers.co.kr/pr/chung_heon">Portfolio Website</a>
-    </div>
+      <br>
+      <br>
+      <h3>| Career</h3>
+      <p>[2022-09]</p>
+      <p>넷마블 게임 아카데미 부트캠프 수료증</p>
+      <br>
+      <h3>| My Games</h3>
+      <p>아래 웹사이트는 제가 만든 프로젝트가 있는 웹사이트 입니다.</p>
+      <a href="https://portfolio-lch.netlify.app">Portfolio Website</a>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
   </div>
 </body>
 </html>
